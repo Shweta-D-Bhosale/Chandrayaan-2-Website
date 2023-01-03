@@ -1,0 +1,249 @@
+<html>
+		<head>
+		<style>
+
+	 .slideshow{
+		margin:0 auto;
+		padding-top:50px;
+		height:700px;
+		background:url('48.png');
+		box-sizing:border-box;
+
+		}
+
+
+.content{
+margin:auto;
+width:190px;
+perspective:1000px;
+position:relative;
+padding-top:150px;
+}
+
+.content-carrousel{
+width:100%;
+position:absolute;
+float:right;
+animation:roter 30s infinite  linear;
+transform-style:preserve-3d;
+}
+
+
+.content-carrousel:hover{
+animation-play-state:paused;
+cursor:pointer;
+}
+
+.content-carrousel figure{
+width:100%;
+height:150px;
+border:5px solid black ;
+overflow:hidden;
+position:absolute;
+}
+
+.content-carrousel  figure:nth-child(1){
+transform:rotateY(0deg) translateZ(300px);
+
+}
+
+
+.content-carrousel  figure:nth-child(2){
+transform:rotateY(40deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(3){
+transform:rotateY(80deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(4){
+transform:rotateY(120deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(5){
+transform:rotateY(160deg) translateZ(300px);
+}
+
+
+.content-carrousel  figure:nth-child(6){
+transform:rotateY(200deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(7){
+transform:rotateY(240deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(8){
+transform:rotateY(280deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(9){
+transform:rotateY(320deg) translateZ(300px);
+}
+
+.shadow{
+position:absolute;
+box-shadow:0px 0px 50px 0px #ff1493;
+border-radius:2px
+}
+
+.content-carrousel	img{
+ image-rendering:auto;
+ transition:all 300ms;
+ width:100%;
+ height:100%;
+ }
+
+
+.content-carrousel  img:hover
+{
+transform:scale(1.2);
+transition:all 300ms;
+}
+
+
+@keyframes roter{
+from{
+		transform:rotateY(0deg);
+
+} to{
+		transform:rotateY(360deg);
+}
+}
+
+<!-- Second Slider-->
+	.slideshow{
+			margin:0 auto;
+			padding-top:50px;
+			height:700px;
+			background:black;
+			box-sizing:border-box;
+
+			}
+
+
+	.content{
+	margin:auto;
+	width:190px;
+	perspective:1000px;
+	position:relative;
+	padding-top:150px;
+	}
+
+	.content-carrousel{
+	width:100%;
+	position:absolute;
+	float:right;
+	animation:roter 30s infinite  linear;
+	transform-style:preserve-3d;
+	}
+
+
+	.content-carrousel:hover{
+	animation-play-state:paused;
+	cursor:pointer;
+	}
+
+.content-carrousel figure{
+width:100%;
+height:150px;
+border:5px solid black ;
+overflow:hidden;
+position:absolute;
+}
+
+.content-carrousel  figure:nth-child(1){
+transform:rotateY(0deg) translateZ(300px);
+
+}
+
+
+.content-carrousel  figure:nth-child(2){
+transform:rotateY(40deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(3){
+transform:rotateY(80deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(4){
+transform:rotateY(120deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(5){
+transform:rotateY(160deg) translateZ(300px);
+}
+
+
+.content-carrousel  figure:nth-child(6){
+transform:rotateY(200deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(7){
+transform:rotateY(240deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(8){
+transform:rotateY(280deg) translateZ(300px);
+}
+
+.content-carrousel  figure:nth-child(9){
+transform:rotateY(320deg) translateZ(300px);
+}
+
+.shadow{
+position:absolute;
+box-shadow:0px 0px 50px 0px #ff1493;
+border-radius:2px
+}
+
+.content-carrousel	img{
+ image-rendering:auto;
+ transition:all 300ms;
+ width:100%;
+ height:100%;
+ }
+
+
+.content-carrousel  img:hover
+{
+transform:scale(1.2);
+transition:all 300ms;
+}
+
+
+@keyframes roter{
+from{
+		transform:rotateY(0deg);
+
+} to{
+		transform:rotateY(360deg);
+}
+}
+</style>
+<body background="img\16.gif">
+<!--<a href="index.html"><img src="home.png"height="20%"width="20%"align="right"></a>--><br/>
+<center><b><font face="Poor Richard" size="7" color="white">ChandraYaan 2</font></b></center>
+<section class="slideshow">
+<div class="content">
+<div class="content-carrousel">
+
+<figure class="shadow"><a href="intro.htm"><img src="img/11.jpg" ></a></figure>
+<figure class="shadow"><a href="history.htm"><img src="img/12.jpg"></a></figure>
+<figure class="shadow"><a href="orbiter.htm"><img src="img/13.jpg"></a></figure>
+<figure class="shadow"><a href="pragyan.htm"><img src="img/14.jpg"></a></figure>
+<figure class="shadow"><a href="vikram.htm"><img src="img/15.jpg"></a></figure>
+<figure class="shadow"><a href="benefits.htm"><img src="img/20.jpg"></a></figure>
+<figure class="shadow"><a href="mission profiles.htm"><img src="img/17.jpg"></a></figure>
+<figure class="shadow"><a href="video.htm"><img src="img/18.jpg"></a></figure>
+<figure class="shadow"><a href="ch_gallery.html"><img src="img/19.jpg" ></a></figure>
+
+</div>
+</div>
+
+
+</section>
+
+
+</body>
+</html>

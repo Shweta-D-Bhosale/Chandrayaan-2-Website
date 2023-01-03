@@ -1,0 +1,72 @@
+slider{
+	display:block;
+	width:65%;
+	height:65%;
+	margin-top:-15%;
+	margin-left:20%;
+	position:absolute;
+	overflow:hidden;
+	overflow:hidden;
+	overflow:hidden;
+	border-radius:20px;
+	background-image:url("4.jpg");
+	background-size:cover;
+}
+
+slider > *{
+	width:100%;
+	height:100%;
+	margin-top:0%;
+	margin-left:0%;
+	animation: slide 12s infinite;
+	overflow:hidden;
+	position:absolute;
+	border-radius:20px;
+}
+
+slide:nth-child(1){
+	left:0%;
+	animation-delay:-8s;
+	background-image:url("17.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+slide:nth-child(2){
+	animation-delay:-6s;
+	background-image:url("bm.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+slide:nth-child(3){
+	animation-delay:-4s;
+	background-image:url("rankala.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+slide:nth-child(4){
+	animation-delay:-2.5s;
+	background-image:url("sp.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+slide:nth-child(5){
+	left:0%;
+	animation-delay:-1s;
+	background-image:url("3.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+@keyframes slide{
+	0%{left:100%; width:100%; }
+	5%{left:0%;}
+	25%{left:0%;}
+	45%{left:-100%; width:100%;}
+	65%{left:-100%; width:0%;}
+	85%{left:-100%; width:0%; }
+	100%{left:100%; width:0%;}
+}
